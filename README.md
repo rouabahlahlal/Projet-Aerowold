@@ -1,6 +1,8 @@
 # 🌍 **Aerowold - Portfolio de Chef de Projet en Analyse Data**
 
-Bienvenue dans mon portfolio **Aerowold** ! Ce répertoire présente mes compétences, mes projets et mes réalisations en tant que Chef de Projet en Analyse Data. Vous trouverez ci-dessous une présentation de mon profil, des projets que j'ai réalisés, ainsi que des liens vers les codes sources et des visuels pour chaque projet.
+![Logo Aéroworld](images/logo_aeroworld.png)
+
+Bienvenue dans mon portfolio **Aerowold** ! Ce répertoire présente mes compétences, mes projets, les documents que j'ai produits, ainsi qu'une carte mentale et une vidéo de présentation en réponse aux missions demandées dans le cadre du recrutement pour le poste de Chef de Projet en Analyse Data chez Aéroworld.
 
 ---
 
@@ -25,28 +27,32 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ---
 
-## 📂 **Projets Réalisés**
+## 📂 **Documents Produits**
 
-### 1. **Analyse des Données de Maintenance**
-- **Description** : Ce projet consiste en l'analyse des données de maintenance des avions pour prévoir les besoins en maintenance et optimiser les opérations.
-- **Lien vers le code** : [Projet Maintenance](projets/maintenance)
-- **Présentation** : J'ai développé des modèles prédictifs pour anticiper les pannes et réduire les temps d'arrêt.
-- **Image du projet** :
-  ![Analyse des Données de Maintenance](images/maintenance.png)
+### 1. **Veille Métier et Plan de Gestion de Projet**
+- **Description** : Ce tableau public regroupe à la fois la veille métier sur les nouveaux outils, techniques et méthodes d'analyse de données, ainsi que le plan de gestion du projet.
+- **Lien vers le tableau public** : [Veille Métier et Plan de Gestion](documents/veille_et_plan.pdf)
+- **Présentation** : Ce document combine une analyse des tendances actuelles en analyse de données et une méthodologie claire pour la gestion du projet.
 
-### 2. **Optimisation des Performances Opérationnelles**
-- **Description** : Analyse des données opérationnelles pour améliorer l'efficacité des vols et réduire les coûts.
-- **Lien vers le code** : [Projet Performances](projets/performances)
-- **Présentation** : J'ai utilisé des techniques d'apprentissage automatique pour identifier les zones d'amélioration.
-- **Image du projet** :
-  ![Optimisation des Performances](images/performances.png)
+### 2. **Cahier des Charges Fonctionnel**
+- **Description** : Cahier des charges détaillant les besoins métier et les solutions proposées.
+- **Lien vers le document** : [Cahier des Charges](documents/cahier_des_charges.pdf)
+- **Présentation** : Ce document formalise les objectifs et les enjeux du projet, en intégrant les contraintes techniques et métier.
 
-### 3. **Sécurisation des Données Sensibles**
-- **Description** : Mise en place de mesures de sécurité pour protéger les données sensibles de l'entreprise.
-- **Lien vers le code** : [Projet Sécurité](projets/securite)
-- **Présentation** : J'ai implémenté des protocoles de sécurité avancés pour prévenir les cyberattaques.
-- **Image du projet** :
-  ![Sécurisation des Données](images/securite.png)
+### 3. **Procédures de Documentation**
+- **Description** : Document formalisant les procédures de documentation pour assurer une gestion fiable des données.
+- **Lien vers le document** : [Procédures de Documentation](documents/procedures_documentation.pdf)
+- **Présentation** : Ce document assure la traçabilité et la fiabilité des données tout au long du projet.
+
+### 4. **Carte Mentale**
+- **Description** : Une carte mentale présentant une vue d'ensemble des compétences, des outils et des méthodologies utilisés dans le cadre de ce projet.
+- **Lien vers la carte mentale** : [Carte Mentale](documents/carte_mentale.png)
+- **Présentation** : Cette carte mentale illustre les différentes facettes du projet, des compétences techniques aux soft skills nécessaires.
+
+### 5. **Vidéo de Présentation**
+- **Description** : Une vidéo de présentation détaillant les projets réalisés, les documents produits, et les compétences mises en œuvre.
+- **Lien vers la vidéo** : [Vidéo de Présentation](documents/video_presentation.mp4)
+- **Présentation** : Cette vidéo offre une vue d'ensemble de mon travail et de ma démarche en tant que Chef de Projet en Analyse Data.
 
 ---
 
