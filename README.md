@@ -1,6 +1,6 @@
 # 🌍 **Aerowold - Portfolio de Chef de Projet en Analyse Data**
 
-![Logo Aéroworld](images/logo.png)
+![Logo Aéroworld](images/Logo.png)
 
 Bienvenue dans mon portfolio **Aerowold** ! Ce répertoire présente mes compétences, mes projets, les documents que j'ai produits, ainsi qu'une carte mentale et une vidéo de présentation en réponse aux missions demandées dans le cadre du recrutement pour le poste de Chef de Projet en Analyse Data chez Aéroworld.
 
