@@ -1,4 +1,1 @@
-git rm chemin/vers/le/fichier
-git commit -m "Suppression du fichier X"
-git push origin main  # ou la branche correspondante
 
