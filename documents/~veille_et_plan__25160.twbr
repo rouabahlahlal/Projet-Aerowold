@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Veille (veille)' inline='true' name='federated.1xmk93e1iwdg5b19npidv0dqr1fa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='veille' name='excel-direct.1e0ffne0ncs1wg19r4jpb1a3k4dy'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Documents/Data analyst/Projet 13/veille.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1e0ffne0ncs1wg19r4jpb1a3k4dy' name='Veille' table='[Veille$]' type='table'>
+          <columns gridOrigin='A1:D34:no:A1:D34:0' header='yes' outcome='6'>
+            <column datatype='string' name='Catégorie' ordinal='0' />
+            <column datatype='string' name='Indicateurs clés' ordinal='1' />
+            <column datatype='string' name='Sources d’information' ordinal='2' />
+            <column datatype='string' name='Liens' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Veille]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D34:no:A1:D34:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Catégorie</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Catégorie]</local-name>
+            <parent-name>[Veille]</parent-name>
+            <remote-alias>Catégorie</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicateurs clés</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicateurs clés]</local-name>
+            <parent-name>[Veille]</parent-name>
+            <remote-alias>Indicateurs clés</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sources d’information</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sources d’information]</local-name>
+            <parent-name>[Veille]</parent-name>
+            <remote-alias>Sources d’information</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Liens</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Liens]</local-name>
+            <parent-name>[Veille]</parent-name>
+            <remote-alias>Liens</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Veille' datatype='table' name='[__tableau_internal_object_id__].[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_17dpvt71ln7fja1ag79ia02wgn49.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/12/2025 09:42:04 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Catégorie</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Catégorie]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Catégorie</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Veille</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Indicateurs clés</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Indicateurs clés]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Indicateurs clés</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Veille</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sources d’information</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sources d’information]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sources d’information</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Veille</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Liens</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Liens]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Liens</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Veille</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Veille' id='Veille_A2C8FBEB0FDD4B9FB5868A8D0A73437C'>
+            <properties context=''>
+              <relation connection='excel-direct.1e0ffne0ncs1wg19r4jpb1a3k4dy' name='Veille' table='[Veille$]' type='table'>
+                <columns gridOrigin='A1:D34:no:A1:D34:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Catégorie' ordinal='0' />
+                  <column datatype='string' name='Indicateurs clés' ordinal='1' />
+                  <column datatype='string' name='Sources d’information' ordinal='2' />
+                  <column datatype='string' name='Liens' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='diagramme_gantt (diagramme_gantt)' inline='true' name='federated.0fhx4pl1cr26ad1af31ou01cp5sr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='diagramme_gantt' name='excel-direct.1wedzeh1w95o04124lv8p0j4jtof'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Documents/Data analyst/Projet 13/diagramme_gantt.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='veille' name='excel-direct.01fksur18l40m31dgbsu41s9oc92'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Documents/Data analyst/Projet 13/veille.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1wedzeh1w95o04124lv8p0j4jtof' name='diagramme_gantt' table='[diagramme_gantt$]' type='table'>
+          <columns gridOrigin='A1:E14:no:A1:E14:0' header='yes' outcome='6'>
+            <column datatype='string' name='Catégorie' ordinal='0' />
+            <column datatype='string' name='Tâche' ordinal='1' />
+            <column datatype='date' name='Début' ordinal='2' />
+            <column datatype='date' name='Fin' ordinal='3' />
+            <column datatype='integer' name='Durée' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E14:no:A1:E14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Catégorie</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Catégorie]</local-name>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias>Catégorie</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tâche</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tâche]</local-name>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias>Tâche</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Début</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Début]</local-name>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias>Début</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fin</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fin]</local-name>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias>Fin</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Durée</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Durée]</local-name>
+            <parent-name>[diagramme_gantt]</parent-name>
+            <remote-alias>Durée</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Catégorie]' role='dimension' type='nominal' />
+      <column caption='diagramme_gantt' datatype='table' name='[__tableau_internal_object_id__].[diagramme!gantt_130774A822D941909B6236EF87047E77]' role='measure' type='quantitative' />
+      <column-instance column='[Catégorie]' derivation='None' name='[none:Catégorie:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_0sv2cc70gdqisb1cogf0o0l1cq9n.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/11/2025 11:53:53 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Catégorie</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Catégorie]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Catégorie</remote-alias>
+              <ordinal>0</ordinal>
+              <family>diagramme_gantt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tâche</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tâche]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tâche</remote-alias>
+              <ordinal>1</ordinal>
+              <family>diagramme_gantt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Début</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Début]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Début</remote-alias>
+              <ordinal>2</ordinal>
+              <family>diagramme_gantt</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fin</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fin</remote-alias>
+              <ordinal>3</ordinal>
+              <family>diagramme_gantt</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Durée</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Durée]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Durée</remote-alias>
+              <ordinal>4</ordinal>
+              <family>diagramme_gantt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diagramme!gantt_130774A822D941909B6236EF87047E77]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Catégorie:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Besoins métiers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Portfolio&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Gestion de projet portflio&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;session de formation sur un outil de visualisation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;carte mentale&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Procédure de documentation&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cahier des charges du projet portfolio&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Veille métier&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='diagramme_gantt' id='diagramme!gantt_130774A822D941909B6236EF87047E77'>
+            <properties context=''>
+              <relation connection='excel-direct.1wedzeh1w95o04124lv8p0j4jtof' name='diagramme_gantt' table='[diagramme_gantt$]' type='table'>
+                <columns gridOrigin='A1:E14:no:A1:E14:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Catégorie' ordinal='0' />
+                  <column datatype='string' name='Tâche' ordinal='1' />
+                  <column datatype='date' name='Début' ordinal='2' />
+                  <column datatype='date' name='Fin' ordinal='3' />
+                  <column datatype='integer' name='Durée' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Tâches'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diagramme_gantt (diagramme_gantt)' name='federated.0fhx4pl1cr26ad1af31ou01cp5sr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fhx4pl1cr26ad1af31ou01cp5sr'>
+            <column datatype='string' name='[Catégorie]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Durée]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Début]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Tâche]' role='dimension' type='nominal' />
+            <column-instance column='[Catégorie]' derivation='None' name='[none:Catégorie:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Début]' derivation='None' name='[none:Début:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tâche]' derivation='None' name='[none:Tâche:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Durée]' derivation='Sum' name='[sum:Durée:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Catégorie:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Besoins métiers&quot;</bucket>
+              <bucket>&quot;Cahier des charges du projet portfolio&quot;</bucket>
+              <bucket>&quot;carte mentale&quot;</bucket>
+              <bucket>&quot;Gestion de projet portflio&quot;</bucket>
+              <bucket>&quot;Portfolio&quot;</bucket>
+              <bucket>&quot;Procédure de documentation&quot;</bucket>
+              <bucket>&quot;session de formation sur un outil de visualisation&quot;</bucket>
+              <bucket>&quot;Veille métier&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Tâche:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]' field-type='quantitative' minor-origin='#2025-03-07#' minor-spacing='1.0' minor-units='days' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Tâche:nk]' value='36' />
+            <format attr='text-format' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]' value='*dd/mm' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Tâche:nk]' value='440' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]' value='*dd/mm' />
+            <format attr='text-orientation' field='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-level' scope='cols' value='0' />
+            <format attr='band-size' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Catégorie:nk]' />
+              <size column='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[sum:Durée:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='329' />
+                <format attr='maxwidth' value='329' />
+                <format attr='minheight' value='468' />
+                <format attr='maxheight' value='468' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Tâche:nk]</rows>
+        <cols>[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Début:qk]</cols>
+      </table>
+      <simple-id uuid='{E3053A74-A6F2-446F-97BF-7062C5564116}' />
+    </worksheet>
+    <worksheet name='Veille'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Veille (veille)' name='federated.1xmk93e1iwdg5b19npidv0dqr1fa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xmk93e1iwdg5b19npidv0dqr1fa'>
+            <column datatype='string' name='[Catégorie]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Indicateurs clés]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Liens]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sources d’information]' role='dimension' type='nominal' />
+            <column-instance column='[Catégorie]' derivation='None' name='[none:Catégorie:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Indicateurs clés]' derivation='None' name='[none:Indicateurs clés:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Liens]' derivation='None' name='[none:Liens:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sources d’information]' derivation='None' name='[none:Sources d’information:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Catégorie:nk]' member='&quot;Concurrence et Benchmark&quot;' />
+              <groupfilter function='member' level='[none:Catégorie:nk]' member='&quot;Réglementation &amp; Sécurité&quot;' />
+              <groupfilter function='member' level='[none:Catégorie:nk]' member='&quot;Technologies et outils&quot;' />
+              <groupfilter function='member' level='[none:Catégorie:nk]' member='&quot;Tendances en aviation&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='5' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]' value='220' />
+            <format attr='width' field='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Indicateurs clés:nk]' value='348' />
+            <format attr='width' field='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Sources d’information:nk]' value='272' />
+            <format attr='width' field='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Liens:nk]' value='448' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk] / ([federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Indicateurs clés:nk] / ([federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Sources d’information:nk] / [federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Liens:nk])))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A8E75B24-0A83-485F-94AE-03836A880916}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Histoire ' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+        <style-rule element='story-description'>
+          <format attr='text-align' value='center' />
+          <format attr='wrap' value='on' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='background-color' value='#a0cbe8' />
+          <format attr='font-weight' value='bold' />
+        </style-rule>
+        <style-rule element='story-title'>
+          <format attr='text-align' value='center' />
+          <format attr='font-weight' value='normal' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='1' param='vert' removable='false' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='1248' id='3' type-v2='title' w='99034' x='483' y='999' />
+            <zone fixed-size='79' h='9863' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99034' x='483' y='2247' />
+            <zone h='86891' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99034' x='483' y='12110'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='false'>
+                <story-points>
+                  <story-point caption='Tâches' captured-sheet='Tableau de bord Tâche' id='1' />
+                  <story-point caption='Veille' captured-sheet='Tableau de bord Veille' id='2' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{CF58BF20-0A57-46EF-A71C-154137BAD5B3}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Tableau de bord Tâche'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='98004' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='998'>
+          <zone h='98004' id='5' type-v2='layout-basic' w='97538' x='1231' y='998'>
+            <zone h='98004' id='3' name='Tâches' w='97538' x='1231' y='998'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='27' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Tâches' w='97538' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8BF8EC1F-7528-4559-8950-9EE959CD6F82}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Tableau de bord Veille'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Veille (veille)' name='federated.1xmk93e1iwdg5b19npidv0dqr1fa' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1xmk93e1iwdg5b19npidv0dqr1fa'>
+        <column datatype='string' name='[Catégorie]' role='dimension' type='nominal' />
+        <column-instance column='[Catégorie]' derivation='None' name='[none:Catégorie:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='98002' id='5' type-v2='layout-basic' w='99034' x='483' y='999'>
+              <zone h='90387' id='3' name='Veille' w='99034' x='483' y='8614'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7615' id='9' param='horz' type-v2='layout-flow' w='66204' x='33313' y='999' />
+              <zone h='7615' id='8' mode='checkdropdown' name='Veille' param='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]' type-v2='filter' values='database' w='32830' x='483' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='18' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone h='7615' id='8' mode='checkdropdown' name='Veille' param='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]' type-v2='filter' values='database' w='32830' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90387' id='3' is-fixed='true' name='Veille' w='99034' x='483' y='8614'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DC95043D-A8C0-4797-8A17-7CBA7E8214CF}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Veille'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card param='[federated.1xmk93e1iwdg5b19npidv0dqr1fa].[none:Catégorie:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53438425-A8B9-4F5D-BD11-BA35C968D5EF}' />
+    </window>
+    <window class='worksheet' name='Tâches'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='5' param='[federated.0fhx4pl1cr26ad1af31ou01cp5sr].[none:Catégorie:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{B42B3DA3-049B-4F8A-91DE-CE6859E0D113}' />
+    </window>
+    <window class='dashboard' name='Tableau de bord Tâche'>
+      <viewpoints>
+        <viewpoint name='Tâches'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{8151212B-BA53-4DB1-A3A9-94ED6662B91A}' />
+    </window>
+    <window class='dashboard' name='Tableau de bord Veille'>
+      <viewpoints>
+        <viewpoint name='Veille' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{78DF868D-FC0E-4D5E-8E35-F47C7981C339}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Histoire '>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{3CE5025E-BD3C-45B1-89DC-6AD6D7030C41}' />
+    </window>
+  </windows>
+</workbook>
