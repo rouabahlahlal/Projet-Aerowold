@@ -32,22 +32,22 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ### 1. **Veille Métier et Plan de Gestion de Projet**
 - **Description** : Ce tableau public regroupe à la fois la veille métier sur les nouveaux outils, techniques et méthodes d'analyse de données, ainsi que le plan de gestion du projet.
-- **Lien vers le tableau public** : [Veille Métier et Plan de Gestion](documents/veille_et_plan.pdf)
+- **Lien vers le tableau public** : [Veille Métier et Plan de Gestion](documents/veille_et_plan.twb)
 - **Présentation** : Ce document combine une analyse des tendances actuelles en analyse de données et une méthodologie claire pour la gestion du projet.
 
 ### 2. **Cahier des Charges Fonctionnel**
 - **Description** : Cahier des charges détaillant les besoins métier et les solutions proposées.
-- **Lien vers le document** : [Cahier des Charges](documents/cahier_des_charges.ppt)
+- **Lien vers le document** : [Cahier des Charges](documents/cahier_des_charges.pptx)
 - **Présentation** : Ce document formalise les objectifs et les enjeux du projet, en intégrant les contraintes techniques et métier.
 
 ### 3. **Procédures de Documentation**
 - **Description** : Document formalisant les procédures de documentation pour assurer une gestion fiable des données.
-- **Lien vers le document** : [Procédures de Documentation](documents/procedures_documentation.pdf)
+- **Lien vers le document** : [Procédures de Documentation](documents/Procedures_documentation.pdf)
 - **Présentation** : Ce document assure la traçabilité et la fiabilité des données tout au long du projet.
 
 ### 4. **Carte Mentale**
 - **Description** : Une carte mentale présentant une vue d'ensemble des compétences, des outils et des méthodologies utilisés dans le cadre de ce projet.
-- **Lien vers la carte mentale** : [Carte Mentale](documents/carte_mentale.pdf)
+- **Lien vers la carte mentale** : [Carte Mentale](documents/Carte_mentale.pdf)
 - **Présentation** : Cette carte mentale illustre les différentes facettes du projet, des compétences techniques aux soft skills nécessaires.
 
 ### 5. **Vidéo de Présentation**
@@ -76,8 +76,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ## 📧 **Contact**
 
-Pour toute question ou collaboration, n'hésitez pas à me contacter via [mon email](mailto:votre.email@example.com) ou à visiter [mon portfolio GitHub](https://github.com/votreusername).
-
+Pour toute question ou collaboration, n'hésitez pas à me contacter via [mon email](mailto:lahlal.rouabah@gmail.com).
 ---
 
 Merci de visiter **Aerowold** ! 🚀
