@@ -72,7 +72,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 - **Rigueur** : Attention aux détails et précision dans l'analyse des données.
 - **Posture de consultant** : Challenge des besoins exprimés, conseil et positionnement comme pair.
 
-##╔ **Portfolio sur Tableau public**
+##  **Portfolio sur Tableau public**
 
 [Protfolio sur Tableau public](https://public.tableau.com/app/profile/lahlal.rouabah/viz/Portfolio_17418220788280/Portfolio)
 
