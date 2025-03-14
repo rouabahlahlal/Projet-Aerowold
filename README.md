@@ -32,7 +32,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ### 1. **Veille Métier et Plan de Gestion de Projet**
 - **Description** : Ce tableau public regroupe à la fois la veille métier sur les nouveaux outils, techniques et méthodes d'analyse de données, ainsi que le plan de gestion du projet.
-- **Lien vers le tableau public** : [Veille Métier et Plan de Gestion](documents/veille_et_plan.twb)
+- **Lien vers le tableau public** : [Veille Métier et Plan de Gestion](https://public.tableau.com/app/profile/lahlal.rouabah/viz/veille_et_plan/Histoire?publish=yes)
 - **Présentation** : Ce document combine une analyse des tendances actuelles en analyse de données et une méthodologie claire pour la gestion du projet.
 
 ### 2. **Cahier des Charges Fonctionnel**
@@ -71,6 +71,10 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 - **Communication** : Capacité à vulgariser des concepts techniques pour un public non technique.
 - **Rigueur** : Attention aux détails et précision dans l'analyse des données.
 - **Posture de consultant** : Challenge des besoins exprimés, conseil et positionnement comme pair.
+
+##╔ **Portfolio sur Tableau public**
+
+[Protfolio sur Tableau public](https://public.tableau.com/app/profile/lahlal.rouabah/viz/Portfolio_17418220788280/Portfolio)
 
 ---
 
