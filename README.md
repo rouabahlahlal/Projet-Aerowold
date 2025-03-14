@@ -37,7 +37,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ### 2. **Cahier des Charges Fonctionnel**
 - **Description** : Cahier des charges détaillant les besoins métier et les solutions proposées.
-- **Lien vers le document** : [Cahier des Charges](documents/cahier_des_charges.pdf)
+- **Lien vers le document** : [Cahier des Charges](documents/cahier_des_charges.ppt)
 - **Présentation** : Ce document formalise les objectifs et les enjeux du projet, en intégrant les contraintes techniques et métier.
 
 ### 3. **Procédures de Documentation**
@@ -47,7 +47,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ### 4. **Carte Mentale**
 - **Description** : Une carte mentale présentant une vue d'ensemble des compétences, des outils et des méthodologies utilisés dans le cadre de ce projet.
-- **Lien vers la carte mentale** : [Carte Mentale](documents/carte_mentale.png)
+- **Lien vers la carte mentale** : [Carte Mentale](documents/carte_mentale.pdf)
 - **Présentation** : Cette carte mentale illustre les différentes facettes du projet, des compétences techniques aux soft skills nécessaires.
 
 ### 5. **Vidéo de Présentation**
