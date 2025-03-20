@@ -52,7 +52,7 @@ Aéroworld génère et collecte une quantité massive de données provenant de d
 
 ### 5. **Vidéo de Présentation**
 - **Description** : Une vidéo de présentation détaillant les projets réalisés, les documents produits, et les compétences mises en œuvre.
-- **Lien vers la vidéo** : [Vidéo de Présentation](documents/video_presentation.mp4)
+- **Lien vers la vidéo** : [Vidéo de Présentation](https://www.loom.com/share/38b5c7eb07d34460beb32107f84c7a34?sid=9024b376-a4f5-493f-935c-531ab7fa0917)
 - **Présentation** : Cette vidéo offre une vue d'ensemble de mon travail et de ma démarche en tant que Chef de Projet en Analyse Data.
 
 ---
